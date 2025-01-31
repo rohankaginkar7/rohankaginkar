@@ -1,0 +1,373 @@
+<html>
+
+<head>
+
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet" />
+  <title>Aadira Software Solutions</title>
+  <link rel="icon" type="image/x-icon" href="/Images/logo.jpg">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    .sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    .scroll-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #48bb78;
+      color: white;
+      border-radius: 50%;
+      padding: 10px;
+      display: none;
+      z-index: 100;
+    }
+
+    .gallery-item {
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.05);
+    }
+
+    #temp {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+    }
+  </style>
+  </style>
+</head>
+
+<body>
+  <header class="sticky bg-white shadow">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center py-4">
+      <div class="text-2xl font-bold text-green-600">
+        Aadira Software Solutions
+      </div>
+      <nav class="space-y-2 md:space-y-0 md:space-x-4 md:flex">
+        <a class="text-gray-700 hover:text-green-600" href="#hero">
+          Home
+        </a>
+        <a class="text-gray-700 hover:text-green-600" href="#services">
+          Services
+        </a>
+        <a class="text-gray-700 hover:text-green-600" href="#about">
+          About Us
+        </a>
+        <!-- <a class="text-gray-700 hover:text-green-600" href="#gallery">
+          Gallery
+        </a> -->
+        <a class="text-gray-700 hover:text-green-600" href="#testimonials">
+          Testimonials
+        </a>
+        <!-- <a class="text-gray-700 hover:text-green-600" href="#blog">
+          Blog
+        </a> -->
+        <a class="text-gray-700 hover:text-green-600" href="#map">
+          Find Us
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- <section class=" bg-green-600 text-center py-5" style="height: 50%; width: 100%;"  id="hero"> -->
+
+  <section class="text-center " style="height: 50%; width: 100%;" id="hero">
+
+    <div class="container mx-auto relative">
+
+      <img src="Images/AAdiratemp.jpg" id="temp" style="height: auto; width: auto; z-index: -1;" alt="logo">
+
+    </div>
+  </section>
+
+
+  <section class="py-16 bg-white" id="services">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-semibold text-center mb-12">
+        Our Services
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="service-item bg-gray-100 p-6 rounded-lg shadow-lg">
+          <img alt="Consultation with a homeopath in a serene environment" class="w-full h-48 object-cover rounded-t-lg"
+            height="300" src="Images/developpement.png" width="400" />
+          <h3 class="text-xl font-semibold mt-4">
+            Custom software development
+          </h3>
+          <p class="mt-2">
+            Building bespoke software applications from scratch to fit unique business needs.
+          </p>
+        </div>
+        <div class="service-item bg-gray-100 p-6 rounded-lg shadow-lg">
+          <img alt="Homeopathic remedies in a natural setting" class="w-full h-48 object-cover rounded-t-lg"
+            height="300" src="Images/app-development.jpeg" width="400" />
+          <h3 class="text-xl font-semibold mt-4">
+            Mobile Applications
+          </h3>
+          <p class="mt-2">
+            Creating applications for iOS and Android devices.
+          </p>
+        </div>
+        <div class="service-item bg-gray-100 p-6 rounded-lg shadow-lg">
+          <img alt="Workshops and seminars on homeopathy" class="w-full h-48 object-cover rounded-t-lg" height="300"
+            src="Images/traning.jpeg" width="400" />
+          <h3 class="text-xl font-semibold mt-4">
+            Software Training
+          </h3>
+          <p class="mt-2">
+            Educational workshops and seminars to help you understand software technologies.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 bg-green-50" id="about">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">
+        About Us
+      </h2>
+
+      <p class="text-lg text-gray-700 leading-relaxed">
+        we are passionate about transforming ideas into innovative software solutions. With a team of skilled
+        developers, designers, and problem-solvers, we specialize in creating custom software that meets the unique
+        needs of businesses across various industries.
+      </p>
+      <p class="mt-4 text-lg text-gray-700 leading-relaxed">
+        Our mission is to deliver high-quality, scalable, and user-friendly applications that drive efficiency,
+        streamline operations, and enhance the customer experience. Whether it's developing a new product,
+        optimizing existing systems, or providing ongoing support, we work closely with our clients to understand
+        their goals and deliver results that exceed expectations.
+      </p>
+
+    </div>
+  </section>
+  <!-- 
+  <section class="py-16 bg-white" id="gallery">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-semibold text-center mb-12">
+        Gallery
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="gallery-item">
+          <img alt="Image of a serene homeopathy clinic" class="w-full h-48 object-cover rounded-lg shadow-lg"
+            height="400" src="Images/case1.jpeg" width="400" />
+        </div>
+        <div class="gallery-item">
+          <img alt="Image of homeopathic remedies" class="w-full h-48 object-cover rounded-lg shadow-lg" height="300"
+            src="Images/case2.jpeg" width="400" />
+        </div>
+        <div class="gallery-item">
+          <img alt="Image of a consultation room" class="w-full h-48 object-cover rounded-lg shadow-lg" height="300"
+            src="Images/case3.jpeg" width="400" />
+        </div>
+        <div class="gallery-item">
+          <img alt="Image of a homeopathy workshop" class="w-full h-48 object-cover rounded-lg shadow-lg" height="300"
+            src="Images/case4.jpeg" width="400" />
+        </div>
+        <div class="gallery-item">
+          <img alt="Image of a homeopathy seminar" class="w-full h-48 object-cover rounded-lg shadow-lg" height="300"
+            src="Images/cases5.jpeg" width="400" />
+        </div>
+        <div class="gallery-item">
+          <img alt="Image of a homeopathy treatment session" class="w-full h-48 object-cover rounded-lg shadow-lg"
+            height="300" src="Images/case6.jpeg" width="400" />
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <section class="py-16 bg-white" id="testimonials">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-semibold text-center mb-12">
+        Testimonials
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="testimonial-item text-center">
+          <!-- <img alt="Portrait of a satisfied client" class="w-24 h-24 rounded-full mx-auto mb-4" height="100"
+            src="https://storage.googleapis.com/a1aa/image/6cfTmR3PiSR0SiqsvOEDyaGA3lnQKhbaEvErlhLNVMpmYzDKA.jpg"
+            width="100" /> -->
+          <p>
+            At Aadira Software Solutions, we believe in fostering a collaborative and supportive work environment.
+            Here’s what some of our team members, including our CEO, have to say about working with us.
+          </p>
+          <h5 class="mt-4 font-semibold">
+            - Rohan
+          </h5>
+        </div>
+        <div class="testimonial-item text-center">
+          <!-- <img alt="Portrait of a happy client" class="w-24 h-24 rounded-full mx-auto mb-4" height="100"
+            src="https://storage.googleapis.com/a1aa/image/0JHMkMhlU7rhEBPiifdcTEm5oofevH5iNyxf4YuQh46BFbegC.jpg"
+            width="100" /> -->
+          <p>
+            Working at Aadira Software Solutions has been a fantastic experience. The focus on continuous learning and
+            the
+            encouragement to experiment with new technologies has helped me grow professionally. It's exciting to be
+            part of a team that’s constantly pushing the boundaries of what's possible
+          </p>
+          <h5 class="mt-4 font-semibold">
+            - Pawan
+          </h5>
+        </div>
+        <div class="testimonial-item text-center">
+          <!-- <img alt="Portrait of a grateful client" class="w-24 h-24 rounded-full mx-auto mb-4" height="100"
+            src="https://storage.googleapis.com/a1aa/image/Kvfz2WVq3XU0IiDVU3GLf3S0XtMhjnO6o07tuRUnzbyKxmHUA.jpg"
+            width="100" /> -->
+          <p>
+            Starting Aadira Software Solutions has been an incredible journey, and watching our team grow and evolve has been
+            the highlight of it all. We’ve built more than just a company—we’ve created a culture centered around
+            innovation, collaboration, and excellence. I'm incredibly proud of the talented individuals that make up
+            this team, and I’m excited for what the future holds..
+          </p>
+          <h5 class="mt-4 font-semibold">
+            - Deepak
+          </h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section class="py-16 bg-green-50" id="blog">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-semibold text-center mb-12">
+        Latest Blog Posts
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="blog-item bg-gray-100 p-6 rounded-lg shadow-lg">
+          <img alt="Image representing a blog post about homeopathy" class="w-full h-48 object-cover rounded-t-lg"
+            height="300"
+            src="https://storage.googleapis.com/a1aa/image/ieziFW0Ws1zlTiqfcCTv4lWQzAS5UclyV23tecSinmfkEbegC.jpg"
+            width="400" />
+          <h3 class="text-xl font-semibold mt-4">
+            The Benefits of Homeopathy
+          </h3>
+          <p class="mt-2">
+            Discover the numerous benefits of homeopathy and how it can improve your overall health.
+          </p>
+          <a class="mt-4 inline-block text-green-600 font-semibold"
+            href="https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/homeopathy">
+            Read More
+          </a>
+        </div>
+        <div class="blog-item bg-gray-100 p-6 rounded-lg shadow-lg">
+          <img alt="Image representing a blog post about natural remedies" class="w-full h-48 object-cover rounded-t-lg"
+            height="300"
+            src="https://storage.googleapis.com/a1aa/image/YiNZGlPWAsbsGJzXgo77938PpxLemKtDFtuE3zXQG4woYzDKA.jpg"
+            width="400" />
+          <h3 class="text-xl font-semibold mt-4">
+            Natural Remedies for Common Ailments
+          </h3>
+          <p class="mt-2">
+            Learn about natural remedies that can help alleviate common health issues.
+          </p>
+          <a class="mt-4 inline-block text-green-600 font-semibold"
+            href="https://www.healthline.com/health/home-remedies">
+            Read More
+          </a>
+        </div>
+        <div class="blog-item bg-gray-100 p-6 rounded-lg shadow-lg">
+          <img alt="Image representing a blog post about homeopathic practices"
+            class="w-full h-48 object-cover rounded-t-lg" height="300"
+            src="https://storage.googleapis.com/a1aa/image/VaV215mMMupdDZZJd59Gui5qKkZkXeJf4dsdLXQXPUpPxmHUA.jpg"
+            width="400" />
+          <h3 class="text-xl font-semibold mt-4">
+            Understanding Homeopathic Practices
+          </h3>
+          <p class="mt-2">
+            Get an in-depth look at the principles and practices of homeopathy.
+          </p>
+          <a class="mt-4 inline-block text-green-600 font-semibold"
+            href="https://www.webmd.com/balance/what-is-homeopathy">
+            Read More
+          </a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <section class="py-16 bg-white" id="map">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-semibold text-center mb-12">
+        Find Us
+      </h2>
+      <div class="w-full h-64">
+
+        <iframe allowfullscreen="" class="w-full h-full rounded-lg shadow-lg" loading="lazy"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d903.6058897359849!2d72.92806472972673!3d19.148707980422056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b94dceabd82d%3A0x1b069336ba1137f4!2sSolitaire%20Apartment%20-%20BS%20Yadav!5e1!3m2!1sen!2sin!4v1737790996886!5m2!1sen!2sin">
+        </iframe>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-green-600 text-white py-8">
+    <div class="container mx-auto text-center">
+      <div class="mb-4">
+        <h5 class="text-xl font-semibold">
+          Contact Us
+        </h5>
+        <p>
+          B-401 Solitaire CHS, Bhandup West, Mumbai, Maharashtra 400078
+        </p>
+        <p>
+          Email: rohan.kaginkar7@gmail.com
+        </p>
+        <p>
+          Phone: 9821136490
+        </p>
+      </div>
+      <div class="mb-4">
+        <h5 class="text-xl font-semibold">
+          Follow Us
+        </h5>
+        <div class="flex justify-center space-x-4">
+          <a class="text-white" href="#">
+            <i class="fab fa-facebook-f">
+            </i>
+          </a>
+          <a class="text-white" href="#">
+            <i class="fab fa-twitter">
+            </i>
+          </a>
+          <a class="text-white" href="#">
+            <i class="fab fa-instagram">
+            </i>
+          </a>
+          <a class="text-white" href="#">
+            <i class="fab fa-linkedin-in">
+            </i>
+          </a>
+        </div>
+      </div>
+      <p class="mt-4">
+        © 2025 Aadira Software Solutions. All rights reserved.
+      </p>
+    </div>
+  </footer>
+  <a class="scroll-to-top" href="#hero" id="scrollToTopButton">
+    <i class="fas fa-arrow-up">
+    </i>
+  </a>
+  <script>
+    // Show or hide the scroll-to-top button
+    window.addEventListener('scroll', function () {
+      const scrollToTopButton = document.getElementById('scrollToTopButton');
+      if (window.scrollY > 300) {
+        scrollToTopButton.style.display = 'block';
+      } else {
+        scrollToTopButton.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+
+</html>
