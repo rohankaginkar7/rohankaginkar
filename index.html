@@ -7,7 +7,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet" />
   <title>Rohan Kaginkar</title>
-  <link rel="icon" type="image/x-icon" href="/Images/logo.jpg">
+  <link rel="icon" type="image/x-icon" href="/Images/favicon.png">
   <style>
     body {
       font-family: 'Open Sans', sans-serif;
@@ -42,6 +42,17 @@
       transform: scale(1.05);
     }
 
+div.scroll-container {
+background-color: #333;
+overflow: auto;
+white-space: nowrap;
+padding: 10px;
+}
+
+div.scroll-container img {
+padding: 10px;
+}
+
     #temp {
       position: absolute;
       left: 0px;
@@ -59,7 +70,7 @@
         Rohan Kaginkar
       </div>
       <nav class="space-y-2 md:space-y-0 md:space-x-4 md:flex">
-        <a class="text-gray-700 hover:text-green-600" href="#hero">
+        <a class="text-gray-700 hover:text-green-600" href="#home">
           Home
         </a>
         <a class="text-gray-700 hover:text-green-600" href="#services">
@@ -86,11 +97,12 @@
 
   <!-- <section class=" bg-green-600 text-center py-5" style="height: 50%; width: 100%;"  id="hero"> -->
 
-  <section class="text-center " style="height: 50%; width: 100%;" id="hero">
+<!--  <section class="text-center " style="height: 50%; width: 100%;" id="hero">-->
+  <section class="text-center py-5" style="height: 60%; width: 100%;">
 
     <div class="container mx-auto relative">
 
-      <img src="Images/AAdiratemp.jpg" id="temp" style="height: auto; width: auto; z-index: -1;" alt="logo">
+      <img src="Images/bannerNew.png" id="temp" style="height: auto; width: 100%; z-index: -1;" alt="logo">
 
     </div>
   </section>
@@ -316,7 +328,7 @@
           Contact Us
         </h5>
         <p>
-          B-401 Solitaire CHS, Bhandup West, Mumbai, Maharashtra 400078
+          B-Wing Flat no 401, Solitaire CTS No 99.99/11028, Bhandup West, Mumbai, Maharashtra 400078
         </p>
         <p>
           Email: rohan.kaginkar7@gmail.com
@@ -353,7 +365,7 @@
       </p>
     </div>
   </footer>
-  <a class="scroll-to-top" href="#hero" id="scrollToTopButton">
+  <a class="scroll-to-top" href="#home" id="scrollToTopButton">
     <i class="fas fa-arrow-up">
     </i>
   </a>
